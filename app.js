@@ -22,7 +22,7 @@ app.use(
   })
 );
 
-app.use(cors({origin: ['https://reddit-frontend.vercel.app'],credentials: true}));
+app.use(cors({origin: ['https://localhost:5173', 'https://reddit-frontend.vercel.app'],credentials: true}));
 
 app.use(express.static('public'));
 
